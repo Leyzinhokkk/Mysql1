@@ -1,2 +1,6 @@
-# Mysql1
-Sql1
+CREATE TABLE Clientes (
+    ID INT AUTO_INCREMENT PRIMARY KEY,
+    Nome VARCHAR(100) NOT NULL,
+    Idade INT,
+    Cidade VARCHAR(100)
+);
